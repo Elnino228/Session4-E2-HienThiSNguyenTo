@@ -17,7 +17,7 @@
         if (N==2) {
             isNguyenTo=true;
         } else {
-            for (let i=2;i<N;i++) {
+            for (let i=2;i<=Math.sqrt(N);i++) {
                 if (N%i==0) {
                     isNguyenTo=false;
                     break;
